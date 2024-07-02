@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-image: url("https://img.freepik.com/free-vector/gradient-golden-linear-background_23-2148944136.jpg?t=st=1719883536~exp=1719887136~hmac=8db823452091abcfe4979b671b92750d5ef486f0865c8f4c6231f7546e1191d3&w=1800");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+} 
+
+.container{
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(16, 25, 46, 0.40);
+  backdrop-filter: blur(10px) saturate(110%);
+  border-radius: 12px;
+  border: 1px solid rgba(225, 225, 225, 0.125);
+  display: flex;
+}
