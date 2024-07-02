@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: url("https://img.freepik.com/free-vector/gradient-golden-linear-background_23-2148944136.jpg?t=st=1719883536~exp=1719887136~hmac=8db823452091abcfe4979b671b92750d5ef486f0865c8f4c6231f7546e1191d3&w=1800");
+  background-image: url('https://cdn.pixabay.com/photo/2022/01/28/18/32/leaves-6975462_1280.png');
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@ body{
 .container{
   width: 90vw;
   height: 90vh;
-  background-color: rgba(16, 25, 46, 0.40);
+  background-color: rgba(17, 69, 67, 0.2);
   backdrop-filter: blur(10px) saturate(110%);
   border-radius: 12px;
   border: 1px solid rgba(225, 225, 225, 0.125);
