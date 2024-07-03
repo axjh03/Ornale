@@ -1,3 +1,4 @@
+import AddUser from "./addUser/addUser";
 import "./chatList.css";
 import { useState } from "react";
 const ChatList = () => {
@@ -46,14 +47,7 @@ const ChatList = () => {
                     <p>Hey, how are you?</p>
                 </div>
             </div>
-
-            <div className="item">
-                <img src="./avatar.png" alt=""/>
-                <div className="texts">
-                    <span>John Doe </span>
-                    <p>Hey, how are you?</p>
-                </div>
-            </div>
+            <AddUser/>
         </div>
     )
 }
