@@ -102,6 +102,10 @@ const Login = () => {
     <div className="login">
       <div className="item">
         <h2>Welcome back,</h2>
+        <p style={{fontSize: "1rem"}}>Demo Account</p>
+        <p style={{fontSize: "0.8rem"}}>Email :  alok.jha@mail.com</p>
+        <p style={{fontSize: "0.8rem"}}>Password : Alok@2024Demo</p>
+        <p style={{fontSize: "1rem"}}>Refresh after login if it doesn't automatically</p>
         <form onSubmit={handleLogin}>
           <input type="text" placeholder="Email" name="email" />
           <input type="password" placeholder="Password" name="password" />
