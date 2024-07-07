@@ -2,9 +2,10 @@
     width: max-content;
     height: max-content;
     padding: 30px;
-    background-color: rgba(17, 69, 67, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     position: absolute;
+    backdrop-filter: blur(10px);
     top: 0;
     bottom: 0;
     left: 0;

@@ -1,5 +1,13 @@
 import "./detail.css";
+import { auth, db } from "../../lib/firebase";
 const Detail = () => {
+
+  const handleLogout = () => {
+    auth.signOut();
+    // resetChat()
+  };
+
+  
   return (
     <div className="detail">
       <div className="user">
@@ -111,7 +119,9 @@ const Detail = () => {
           </div>
         </div>
         <button>Block User</button>
-        <button className="logout">Logout</button>
+        <button className="logout" onClick={handleLogout}>
+          Logout
+        </button>
       </div>
     </div>
   );
